@@ -1,0 +1,37 @@
+.header {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+
+  .header__container {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 44px;
+  }
+  .header__list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    width: 283px;
+  }
+  .header__img {
+    width: 236px;
+    height: 26px;
+  }
+
+  .header__a {
+    font-family: "Barlow-700";
+
+    font-size: 12px;
+    line-height: 15px;
+
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+
+    color: #83888f;
+  }
+}

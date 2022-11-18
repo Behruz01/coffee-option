@@ -1,0 +1,97 @@
+.choose {
+  position: relative;
+
+  width: 1280px;
+  height: 728px;
+
+  margin-left: 80px;
+
+  .choose__black {
+    width: 1280px;
+    height: 577px;
+
+    background: #2c343e;
+    border-radius: 10px;
+
+    padding-top: 100px;
+  }
+
+  .choose__why {
+    font-family: "Fraunces 9pt";
+
+    font-size: 40px;
+    line-height: 48px;
+
+    text-align: center;
+
+    color: #fefcf7;
+
+    margin-bottom: 32px;
+  }
+
+  .choose__large {
+    font-family: "Barlow";
+
+    text-align: center;
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    width: 540px;
+    height: 80px;
+
+    margin-left: 370px;
+  }
+
+  .choose__item {
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    margin-left: 85px;
+  }
+  .choose__list {
+    width: 360px;
+    height: 382px;
+
+    background: #0e8784;
+    border-radius: 8px;
+  }
+  .choose__img {
+    width: 71px;
+    height: 72px;
+    margin-top: 72px;
+    margin-left: 136px;
+  }
+  &__best {
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    line-height: 32px;
+
+    text-align: center;
+
+    color: #fefcf7;
+
+    width: 255px;
+    height: 32px;
+
+    margin-left: 47px;
+    margin-top: 56px;
+  }
+  &__discover {
+    width: 255px;
+    height: 78px;
+
+    text-align: center;
+
+    color: #fefcf7;
+
+    margin-left: 47px;
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,80 @@
+.how {
+  width: 1045px;
+
+  margin-top: 200px;
+  margin-left: 165px;
+
+  .how__works {
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #83888f;
+  }
+  .how__element {
+    position: relative;
+
+    display: flex;
+
+    margin-top: 80px;
+    margin-bottom: 67px;
+  }
+  .how__line {
+    position: absolute;
+    top: 15px;
+
+    width: 700px;
+    height: 1px;
+
+    border: 1px solid #fdd6ba;
+    z-index: -1;
+  }
+  .how__circle {
+    width: 31px;
+    height: 31px;
+    margin-right: 317px;
+
+    background: #fefcf7;
+    border: 2px solid #0e8784;
+    border-radius: 50%;
+  }
+  .how__item {
+    width: 1045px;
+
+    display: flex;
+    align-items: center;
+    gap: 95px;
+  }
+  .how__list {
+    width: 285px;
+  }
+  .how__number {
+    font-family: "Fraunces 9pt";
+    font-size: 72px;
+    line-height: 72px;
+
+    color: #fdd6ba;
+  }
+  .how__info {
+    font-family: "Fraunces 9pt";
+    font-size: 32px;
+    line-height: 36px;
+
+    color: #333d4b;
+
+    width: 255px;
+    height: 73px;
+
+    margin-top: 42px;
+    margin-bottom: 64px;
+  }
+  .how__select {
+    font-family: "Barlow";
+    color: #333d4b;
+
+    width: 285px;
+    height: 130px;
+
+    margin-bottom: 64px;
+  }
+}

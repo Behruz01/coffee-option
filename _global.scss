@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1280px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+button {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #fefcf7;
+
+  background: #0e8784;
+  border-radius: 6px;
+  border: none;
+
+  padding: 15px 31px;
+}
+
+button:hover {
+  background: #66d2cf;
+  border-radius: 6px;
+}
+button:active {
+  background: #e2dedb;
+  border-radius: 6px;
+}
