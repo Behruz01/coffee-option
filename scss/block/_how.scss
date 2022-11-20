@@ -1,61 +1,74 @@
 .how {
-  width: 1045px;
-
   margin-top: 200px;
-  margin-left: 165px;
+  // margin-left: 165px;
 
-  .how__works {
+  &__works {
     font-family: "Fraunces 9pt";
     font-size: 24px;
     line-height: 32px;
 
     color: #83888f;
   }
-  .how__element {
+  &__element {
     position: relative;
 
     display: flex;
+    gap: 349px;
 
     margin-top: 80px;
     margin-bottom: 67px;
+
+    width: 800px;
+
+    &--two {
+      margin-top: 0px;
+    }
   }
-  .how__line {
+  &__line {
     position: absolute;
     top: 15px;
+    right: 25px;
 
-    width: 700px;
+    width: 760px;
     height: 1px;
 
     border: 1px solid #fdd6ba;
     z-index: -1;
+
+    &--two {
+      z-index: 2;
+    }
   }
-  .how__circle {
+  &__circle {
     width: 31px;
     height: 31px;
-    margin-right: 317px;
 
     background: #fefcf7;
     border: 2px solid #0e8784;
     border-radius: 50%;
+
+    &--two {
+      background: none;
+    }
   }
-  .how__item {
+  &__item {
     width: 1045px;
 
     display: flex;
     align-items: center;
     gap: 95px;
   }
-  .how__list {
+  &__list {
     width: 285px;
   }
-  .how__number {
+  &__number {
     font-family: "Fraunces 9pt";
     font-size: 72px;
     line-height: 72px;
 
     color: #fdd6ba;
   }
-  .how__info {
+  &__info {
     font-family: "Fraunces 9pt";
     font-size: 32px;
     line-height: 36px;
@@ -67,8 +80,12 @@
 
     margin-top: 42px;
     margin-bottom: 64px;
+
+    &--two {
+      color: #fefcf7;
+    }
   }
-  .how__select {
+  &__select {
     font-family: "Barlow";
     color: #333d4b;
 
@@ -76,5 +93,21 @@
     height: 130px;
 
     margin-bottom: 64px;
+
+    &--two {
+      color: #fefcf7;
+      margin-bottom: 0px;
+    }
+  }
+  &__black {
+    background: #2c343e;
+    border-radius: 10px;
+
+    margin-top: 164px;
+    padding: 104px 150px 109px 85px;
+
+    &--two {
+      padding: 100px 150px 100px 85px;
+    }
   }
 }

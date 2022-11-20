@@ -1,0 +1,38 @@
+.create {
+  margin-top: 45px;
+  &__coffee {
+    background-image: url(./../../image/Bitmap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+
+    border-radius: 10px;
+
+    padding-top: 117px;
+    padding-left: 85px;
+    margin-top: 45px;
+    margin-bottom: 164px;
+  }
+
+  &__made {
+    font-family: "Fraunces 9pt";
+    font-size: 72px;
+    line-height: 72px;
+
+    width: 493px;
+
+    color: #fefcf7;
+  }
+
+  &__start {
+    width: 445px;
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    margin-top: 32px;
+    margin-bottom: 56px;
+  }
+}

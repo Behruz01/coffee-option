@@ -1,0 +1,38 @@
+.united {
+  &__headquarters {
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #83888f;
+
+    margin-bottom: 72px;
+  }
+
+  &__item {
+    display: flex;
+    gap: 125px;
+
+    width: 1045px;
+  }
+  &__list {
+    &--two {
+      font-family: "Barlow";
+
+      color: #333d4b;
+    }
+  }
+  &__icon {
+    margin-bottom: 46px;
+  }
+
+  &__info {
+    font-family: "Fraunces 9pt";
+    font-size: 32px;
+    line-height: 36px;
+
+    color: #333d4b;
+
+    margin-bottom: 24px;
+  }
+}

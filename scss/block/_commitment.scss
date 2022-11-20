@@ -1,0 +1,36 @@
+.commitment {
+  margin-top: 200px;
+  display: flex;
+  &__region {
+    display: flex;
+  }
+
+  &__mission {
+    width: 540px;
+
+    padding: 90px 0px 90px 125px;
+  }
+
+  &__our {
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #333d4b;
+
+    margin-bottom: 32px;
+  }
+
+  &__simple {
+    width: 540px;
+
+    color: #333d4b;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  &__img {
+    background: #0e8784;
+    border-radius: 8px;
+  }
+}

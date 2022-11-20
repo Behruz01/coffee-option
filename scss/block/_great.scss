@@ -1,19 +1,20 @@
 .great {
-  justify-content: center;
-  background-image: url(../image/Object.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  // justify-content: center;
 
-  width: 1280px;
-  height: 600px;
-  border-radius: 10px;
+  // width: 1280px;
 
-  padding-top: 117px;
-  padding-left: 85px;
-  margin-left: 80px;
   margin-top: 45px;
   .great__coffee {
-    width: 493px;
+    // width: 493px;
+    background-image: url(../image/Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+    border-radius: 10px;
+
+    padding-top: 117px;
+    padding-left: 85px;
   }
 
   .great__made {
