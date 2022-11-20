@@ -1,0 +1,106 @@
+.cards {
+  padding: 168px 165px 184px 165px;
+
+  &__option {
+    display: flex;
+  }
+  &__left {
+    width: 255px;
+    margin-right: 125px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 26px;
+
+    cursor: pointer;
+
+    @include number-li;
+  }
+
+  &__text {
+    @include number-li;
+
+    margin: 24px 0px;
+  }
+
+  &__hr {
+    background: #83888f;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+  }
+
+  &__inform {
+    width: 730px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__drink {
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #83888f;
+  }
+  &__capsule {
+    display: flex;
+
+    gap: 23px;
+  }
+  &__filter {
+    @include card;
+
+    cursor: pointer;
+  }
+
+  &__info {
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #333d4b;
+  }
+
+  &__systems {
+    color: #333d4b;
+
+    width: 172px;
+
+    margin-top: 24px;
+  }
+  &__decaf {
+    width: 730px;
+    padding: 31px 64px 27px 64px;
+
+    background: #2c343e;
+    border-radius: 10px;
+  }
+
+  &__order {
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+    margin-bottom: 8px;
+  }
+  blockquote {
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    line-height: 40px;
+
+    color: #ffffff;
+  }
+  span {
+    color: #0e8784;
+  }
+
+  &__btn {
+    margin-top: 40px;
+    margin-left: 520px;
+  }
+}

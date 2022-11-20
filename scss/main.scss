@@ -1,7 +1,7 @@
 @import "./fonts";
 @import "./global";
 @import "./variables";
-
+@import "./mixin.scss";
 @import "./block/header.scss";
 @import "./block/great.scss";
 @import "./block/our";
@@ -13,3 +13,4 @@
 @import "./block/quality";
 @import "./block/united";
 @import "./block/create";
+@import "./block/cards";
