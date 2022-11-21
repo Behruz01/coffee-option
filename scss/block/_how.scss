@@ -1,7 +1,8 @@
 .how {
   margin-top: 200px;
-  // margin-left: 165px;
-
+  &__two {
+    margin-left: 165px;
+  }
   &__works {
     font-family: "Fraunces 9pt";
     font-size: 24px;
