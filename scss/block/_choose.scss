@@ -5,7 +5,7 @@
 
   margin-left: 80px;
 
-  .choose__black {
+  &__black {
     width: 1280px;
     height: 577px;
 
@@ -15,7 +15,7 @@
     padding-top: 100px;
   }
 
-  .choose__why {
+  &__why {
     font-family: "Fraunces 9pt";
 
     font-size: 40px;
@@ -28,7 +28,7 @@
     margin-bottom: 32px;
   }
 
-  .choose__large {
+  &__large {
     font-family: "Barlow";
 
     text-align: center;
@@ -44,7 +44,7 @@
     margin-left: 370px;
   }
 
-  .choose__item {
+  &__item {
     position: absolute;
     bottom: 0px;
 
@@ -54,14 +54,14 @@
 
     margin-left: 85px;
   }
-  .choose__list {
+  &__list {
     width: 360px;
     height: 382px;
 
     background: #0e8784;
     border-radius: 8px;
   }
-  .choose__img {
+  &__img {
     width: 71px;
     height: 72px;
     margin-top: 72px;

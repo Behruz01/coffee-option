@@ -1,11 +1,6 @@
 .great {
-  // justify-content: center;
-
-  // width: 1280px;
-
   margin-top: 45px;
-  .great__coffee {
-    // width: 493px;
+  &__coffee {
     background-image: url(../image/Object.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +12,7 @@
     padding-left: 85px;
   }
 
-  .great__made {
+  &__made {
     font-family: "Fraunces 9pt";
     font-size: 72px;
     line-height: 72px;
@@ -27,7 +22,7 @@
     color: #fefcf7;
   }
 
-  .great__start {
+  &__start {
     width: 445px;
 
     color: #fefcf7;

@@ -1,8 +1,5 @@
 .footer {
-  // width: 1440px;
-  // height: 120px;
-
-  .footer__line {
+  &__line {
     width: 622px;
     height: 26px;
 
@@ -11,15 +8,15 @@
     align-items: center;
   }
 
-  .footer__item {
+  &__item {
     display: flex;
     gap: 32px;
   }
-  .footer__logo {
+  &__logo {
     width: 236px;
     height: 26px;
   }
-  .footer__link {
+  &__link {
     font-family: "Barlow-700";
     font-size: 12px;
     line-height: 15px;
@@ -33,12 +30,12 @@
       color: black;
     }
   }
-  .footer__icon {
+  &__icon {
     display: flex;
     align-items: center;
     gap: 24px;
   }
-  .footer__cont {
+  &__cont {
     display: flex;
     justify-content: space-between;
 
