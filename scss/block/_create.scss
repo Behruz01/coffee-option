@@ -1,10 +1,11 @@
 .create {
   margin-top: 45px;
   &__coffee {
-    background-image: url(./../../image/Bitmap.jpg);
+    background-image: url(../image/Bitmap.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
+    width: 1280px;
 
     border-radius: 10px;
 
