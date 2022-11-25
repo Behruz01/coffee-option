@@ -39,7 +39,7 @@
     opacity: 0.8;
 
     width: 540px;
-    height: 80px;
+    // height: 80px;
 
     margin-left: 370px;
   }
@@ -92,5 +92,137 @@
 
     margin-left: 47px;
     margin-top: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .choose {
+    margin-left: 0;
+
+    &__black {
+      width: 688px;
+
+      padding-top: 56px;
+    }
+
+    &__why {
+      font-size: 32px;
+      line-height: 48px;
+
+      text-align: center;
+
+      width: 264px;
+
+      margin-left: 212px;
+    }
+
+    &__large {
+      font-size: 15px;
+      line-height: 25px;
+
+      width: 540px;
+
+      margin-left: 74px;
+      margin-bottom: 70px;
+    }
+
+    &__item {
+      top: 275px;
+      flex-direction: column;
+
+      margin-left: 57px;
+    }
+    &__list {
+      width: 573px;
+      display: flex;
+      align-items: center;
+
+      width: 573px;
+      // height: 180px;
+
+      padding: 41px 48px 41px 70px;
+    }
+    &__img {
+      margin: 0;
+    }
+
+    &__best {
+      font-size: 24px;
+      line-height: 32px;
+
+      text-align: start;
+
+      margin: 0px 0px 16px 55px;
+    }
+    &__discover {
+      font-size: 15px;
+      line-height: 25px;
+
+      // width: 344px;
+      text-align: start;
+      margin: 0px 0px 0px 55px;
+    }
+  }
+}
+@media only screen and(max-width: 375px) {
+  .choose {
+    &__black {
+      width: 327px;
+      height: 900px;
+      padding: 64px 24px 28px 24px;
+    }
+    &__why {
+      font-size: 28px;
+      line-height: 28px;
+
+      text-align: center;
+      margin: 0;
+    }
+    &__large {
+      font-size: 15px;
+      line-height: 25px;
+
+      text-align: center;
+
+      width: 279px;
+      margin: 0;
+      margin-top: 24px;
+    }
+    &__item {
+      left: 38px;
+
+      margin: 0px auto;
+    }
+    &__list {
+      width: 279px;
+
+      flex-direction: column;
+      justify-content: center;
+
+      padding: 72px 33px 51px 33px;
+    }
+    &__img {
+      width: 71px;
+      height: 72px;
+    }
+    &__best {
+      font-size: 24px;
+      line-height: 32px;
+
+      text-align: center;
+
+      margin: 0;
+      margin-top: 56px;
+      margin-bottom: 24px;
+    }
+    &__discover {
+      font-size: 15px;
+      line-height: 25px;
+
+      text-align: center;
+
+      margin: 0 auto;
+
+      width: 212px;
+    }
   }
 }

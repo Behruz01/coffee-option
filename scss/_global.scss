@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 .container {
-  max-width: 1280px;
+  max-width: 1310px;
   width: 100%;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
 }
 a {
   text-decoration: none;
@@ -49,3 +49,8 @@ button:active {
   background: #e2dedb;
   border-radius: 6px;
 }
+// @media only screen and (max-width: 1310px) {
+//   .container {
+//     padding: 0 15px;
+//   }
+// }

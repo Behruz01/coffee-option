@@ -1,7 +1,7 @@
 .footer {
   &__line {
     width: 622px;
-    height: 26px;
+    // height: 26px;
 
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,6 @@
   }
   &__logo {
     width: 236px;
-    height: 26px;
   }
   &__link {
     font-family: "Barlow-700";
@@ -35,7 +34,7 @@
     align-items: center;
     gap: 24px;
   }
-  &__cont {
+  &__wrapper {
     display: flex;
     justify-content: space-between;
 
@@ -46,6 +45,57 @@
 
     &--two {
       margin-top: 0px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    &__wrapper {
+      width: 688px;
+      padding: 54px 191px 54px 215px;
+      flex-direction: column;
+    }
+    &__line {
+      width: 283px;
+      flex-direction: column;
+    }
+    &__item {
+      margin-top: 33px;
+      margin-bottom: 65px;
+    }
+
+    &__logo {
+      width: 263px;
+
+      justify-content: center;
+    }
+    &__link {
+      font-size: 12px;
+      line-height: 15px;
+    }
+    &__icon {
+      // width: 283px;
+
+      justify-content: center;
+    }
+  }
+}
+@media only screen and(max-width:375px) {
+  .footer {
+    &__line {
+      width: 225px;
+    }
+    &__wrapper {
+      width: 327px;
+      padding: 54px;
+    }
+    &__logo {
+      width: 217px;
+    }
+    &__item {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 }

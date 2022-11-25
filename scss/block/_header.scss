@@ -2,7 +2,10 @@
   display: flex;
   justify-content: center;
 
-  &__container {
+  &__menu {
+    display: none;
+  }
+  &__wrapper {
     width: 1280px;
     display: flex;
     justify-content: space-between;
@@ -34,6 +37,30 @@
     color: #83888f;
     &:hover {
       color: black;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    &__wrapper {
+      width: 689px;
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .header {
+    &__wrapper {
+      max-width: 327px;
+      gap: 148px;
+    }
+    &__img {
+      max-width: 163px;
+    }
+    &__list {
+      display: none;
+    }
+    &__menu {
+      display: block;
     }
   }
 }
