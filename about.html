@@ -9,25 +9,28 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__wrapper">
-        <img class="header__img" src="./image/Group5.svg" alt="icon" />
-        <ul class="header__list">
-          <li class="header__item">
-            <a href="./index.html" class="header__a">HOME</a>
-          </li>
-          <li class="header__item">
-            <a href="./about.html" class="header__a">ABOUT US</a>
-          </li>
-          <li class="header__item">
-            <a href="./subscribe.html" class="header__a">Create your plan</a>
-          </li>
-        </ul>
+      <div class="container">
+        <div class="header__wrapper">
+          <img class="header__img" src="./image/Group5.svg" alt="icon" />
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="./index.html" class="header__a">HOME</a>
+            </li>
+            <li class="header__item">
+              <a href="./about.html" class="header__a">ABOUT US</a>
+            </li>
+            <li class="header__item">
+              <a href="./subscribe.html" class="header__a">Create your plan</a>
+            </li>
+          </ul>
+          <img class="header__menu" src="./image/header_menu.svg" alt="icon" />
+        </div>
       </div>
     </header>
     <main>
       <section class="about about--bg">
         <div class="container">
-          <div class="about__coffee">
+          <div class="about__wrapper">
             <h1 class="about__made">About Us</h1>
             <p class="about__start">
               Coffeeroasters began its journey of exotic discovery in 1999,
@@ -40,14 +43,17 @@
       </section>
       <section class="commitment">
         <div class="container">
-          <div class="commitment__region">
-            <img
-              width="445"
-              height="520"
-              src="./image/Bitmap(1).png"
-              alt="photo"
-              class="commitment__img"
-            />
+          <div class="commitment__wrapper">
+            <picture>
+              <source srcset="" media="(max-width:376px)" />
+              <img
+                max-width="445"
+                height="520"
+                src="./image/Bitmap(1).png"
+                alt="photo"
+                class="commitment__img"
+              />
+            </picture>
             <div class="commitment__mission">
               <h2 class="commitment__our">Our commitment</h2>
               <p class="commitment__simple">
@@ -88,57 +94,59 @@
       </section>
       <section class="united">
         <div class="container">
-          <h4 class="united__headquarters">Our headquarters</h4>
-          <ul class="united__item">
-            <li class="united__list">
-              <img
-                width="41"
-                height="49"
-                src="./image/Combined_Shape_(2).svg"
-                alt="icon"
-                class="united__icon"
-              />
-              <h3 class="united__info">United Kingdom</h3>
-              <ul class="united__item--two">
-                <li class="united__list--two">68 Asfordby Rd</li>
-                <li class="united__list--two">Alcaston</li>
-                <li class="united__list--two">SY6 1YA</li>
-                <li class="united__list--two">+44 1241 918425</li>
-              </ul>
-            </li>
-            <li class="united__list">
-              <img
-                width="41"
-                height="49"
-                src="./image/Combined_Shape_(1).svg"
-                alt="icon"
-                class="united__icon"
-              />
-              <h3 class="united__info">Canada</h3>
-              <ul class="united__item--two">
-                <li class="united__list--two">1528 Eglinton Avenue</li>
-                <li class="united__list--two">Toronto</li>
-                <li class="united__list--two">Ontario M4P 1A6</li>
-                <li class="united__list--two">+1 416 485 2997</li>
-              </ul>
-            </li>
-            <li class="united__list">
-              <img
-                width="41"
-                height="49"
-                src="./image/CombinedShape.svg"
-                alt="icon"
-                class="united__icon"
-              />
-              <h3 class="united__info">Australia</h3>
-              <ul class="united__item--two">
-                <li class="united__list--two">36 Swanston Street</li>
-                <li class="united__list--two">Kewell</li>
-                <li class="united__list--two">Victoria</li>
-                <li class="united__list--two">+61 4 9928 3629</li>
-              </ul>
-            </li>
-          </ul>
+          <div class="united__wrapper">
+            <h4 class="united__headquarters">Our headquarters</h4>
+            <ul class="united__item">
+              <li class="united__list">
+                <img
+                  width="41"
+                  height="49"
+                  src="./image/Combined_Shape_(2).svg"
+                  alt="icon"
+                  class="united__icon"
+                />
+                <h3 class="united__info">United Kingdom</h3>
+                <ul class="united__item--two">
+                  <li class="united__list--two">68 Asfordby Rd</li>
+                  <li class="united__list--two">Alcaston</li>
+                  <li class="united__list--two">SY6 1YA</li>
+                  <li class="united__list--two">+44 1241 918425</li>
+                </ul>
+              </li>
+              <li class="united__list">
+                <img
+                  width="41"
+                  height="49"
+                  src="./image/Combined_Shape_(1).svg"
+                  alt="icon"
+                  class="united__icon"
+                />
+                <h3 class="united__info">Canada</h3>
+                <ul class="united__item--two">
+                  <li class="united__list--two">1528 Eglinton Avenue</li>
+                  <li class="united__list--two">Toronto</li>
+                  <li class="united__list--two">Ontario M4P 1A6</li>
+                  <li class="united__list--two">+1 416 485 2997</li>
+                </ul>
+              </li>
+              <li class="united__list">
+                <img
+                  width="41"
+                  height="49"
+                  src="./image/CombinedShape.svg"
+                  alt="icon"
+                  class="united__icon"
+                />
+                <h3 class="united__info">Australia</h3>
+                <ul class="united__item--two">
+                  <li class="united__list--two">36 Swanston Street</li>
+                  <li class="united__list--two">Kewell</li>
+                  <li class="united__list--two">Victoria</li>
+                  <li class="united__list--two">+61 4 9928 3629</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>

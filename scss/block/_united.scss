@@ -12,8 +12,6 @@
   &__item {
     display: flex;
     gap: 125px;
-
-    width: 1045px;
   }
   &__list {
     &--two {
@@ -34,5 +32,43 @@
     color: #333d4b;
 
     margin-bottom: 24px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .united {
+    &__item {
+      gap: 9px;
+    }
+    &_info {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    &__list {
+      &--two {
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 376px) {
+  .united {
+    &__headquarters {
+      text-align: center;
+    }
+    &__item {
+      flex-direction: column;
+      text-align: center;
+    }
+    &_info {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    &__list {
+      &--two {
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
   }
 }

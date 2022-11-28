@@ -1,28 +1,17 @@
 .header {
-  display: flex;
-  justify-content: center;
+  margin-top: 44px;
 
   &__menu {
     display: none;
   }
   &__wrapper {
-    width: 1280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    margin-top: 44px;
   }
   &__list {
     display: flex;
-    align-items: center;
     gap: 32px;
-
-    width: 283px;
-  }
-  &__img {
-    width: 236px;
-    height: 26px;
   }
 
   &__a {
@@ -43,16 +32,15 @@
 @media only screen and (max-width: 768px) {
   .header {
     &__wrapper {
-      width: 689px;
+      // width: 689px;
     }
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .header {
-    &__wrapper {
-      max-width: 327px;
-      gap: 148px;
-    }
+    // &__wrapper {
+    //   // gap: 148px;
+    // }
     &__img {
       max-width: 163px;
     }

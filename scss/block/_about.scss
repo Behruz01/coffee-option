@@ -1,15 +1,13 @@
 .about {
   margin-top: 45px;
-  &__coffee {
+  &__wrapper {
     background-image: url(../image/Object.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
 
     border-radius: 10px;
 
-    padding-top: 117px;
-    padding-left: 85px;
+    padding: 118px 233px 118px 58px;
   }
 
   &__made {
@@ -32,5 +30,52 @@
 
     margin-top: 32px;
     margin-bottom: 56px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about {
+    &__wrapper {
+      padding: 118px 233px 118px 58px;
+
+      background-image: url(/image/tablet_hero.png);
+    }
+    &__made {
+      font-size: 32px;
+      line-height: 40px;
+    }
+    &__start {
+      font-size: 15px;
+      line-height: 25px;
+
+      width: 398px;
+
+      margin: 0;
+      margin-top: 24px;
+    }
+  }
+}
+@media only screen and (max-width: 376px) {
+  .about {
+    &__wrapper {
+      padding: 111px 24px 87px 24px;
+
+      background-image: url(/image/mobile_hero.png);
+    }
+    &__made {
+      font-size: 28px;
+      line-height: 28px;
+
+      text-align: center;
+
+      width: 279px;
+    }
+    &__start {
+      font-size: 15px;
+      line-height: 25px;
+
+      text-align: center;
+
+      width: 279px;
+    }
   }
 }

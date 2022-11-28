@@ -1,7 +1,7 @@
 .commitment {
   margin-top: 200px;
   display: flex;
-  &__region {
+  &__wrapper {
     display: flex;
   }
 
@@ -32,5 +32,59 @@
   &__img {
     background: #0e8784;
     border-radius: 8px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .commitment {
+    img {
+      width: 281px;
+      height: 470px;
+    }
+
+    &__mission {
+      padding-left: 69px;
+      padding-top: 0;
+    }
+    &__our {
+      font-size: 32px;
+      line-height: 48px;
+    }
+    &__simple {
+      font-size: 15px;
+      line-height: 25px;
+
+      width: 339px;
+    }
+  }
+}
+@media only screen and (max-width: 376px) {
+  .commitment {
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    img {
+      width: 327px;
+      height: 400px;
+    }
+
+    &__mission {
+      width: 327px;
+
+      padding-left: 0;
+    }
+    &__our {
+      font-size: 32px;
+      line-height: 48px;
+
+      margin-top: 48px;
+      width: 327px;
+    }
+    &__simple {
+      font-size: 15px;
+      line-height: 25px;
+
+      width: 327px;
+    }
   }
 }
