@@ -1,18 +1,18 @@
 .create {
   margin-top: 45px;
-  &__coffee {
+  &__wrapper {
     background-image: url(../image/Bitmap.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    width: 1280px;
 
     border-radius: 10px;
 
-    padding-top: 117px;
-    padding-left: 85px;
     margin-top: 45px;
     margin-bottom: 164px;
+    padding: 134px 710px 134px 85px;
+  }
+  &__coffee {
+    width: 486px;
   }
 
   &__made {
@@ -20,13 +20,12 @@
     font-size: 72px;
     line-height: 72px;
 
-    width: 493px;
-
     color: #fefcf7;
   }
 
   &__start {
-    width: 445px;
+    font-size: 15px;
+    line-height: 25px;
 
     color: #fefcf7;
 
@@ -34,6 +33,74 @@
     opacity: 0.8;
 
     margin-top: 32px;
-    margin-bottom: 56px;
+
+    max-width: 445px;
+  }
+}
+@media only screen and(max-width:768px) {
+  .create {
+    &__wrapper {
+      background-image: url(/image/sub-hero.png);
+
+      padding: 127px 233px 126px 58px;
+
+      border-radius: 10px;
+    }
+    &__coffee {
+      max-width: 398px;
+    }
+    &__made {
+      font-size: 48px;
+      line-height: 48px;
+
+      // width: 493px;
+
+      color: #fefcf7;
+    }
+
+    &__start {
+      font-size: 15px;
+      line-height: 25px;
+
+      color: #fefcf7;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+
+      margin-top: 24px;
+    }
+  }
+}
+@media only screen and(max-width:376px) {
+  .create {
+    &__wrapper {
+      background-image: url(/image/hero-mobile.png);
+
+      padding: 101px 24px 136px 24px;
+      margin-bottom: 120px;
+
+      border-radius: 10px;
+    }
+    &__coffee {
+      max-width: 279px;
+    }
+    &__made {
+      font-size: 40px;
+      line-height: 40px;
+
+      color: #fefcf7;
+    }
+
+    &__start {
+      font-size: 15px;
+      line-height: 25px;
+
+      color: #fefcf7;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+
+      margin-top: 22px;
+    }
   }
 }

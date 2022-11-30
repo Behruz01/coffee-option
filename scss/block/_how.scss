@@ -19,7 +19,7 @@
     margin-top: 80px;
     margin-bottom: 67px;
 
-    width: 800px;
+    max-width: 800px;
 
     &--two {
       margin-top: 0px;
@@ -57,9 +57,9 @@
     align-items: center;
     gap: 95px;
   }
-  &__list {
-    width: 285px;
-  }
+  // &__list {
+  //   width: 285px;
+  // }
   &__number {
     font-family: "Fraunces 9pt";
     font-size: 72px;
@@ -74,7 +74,7 @@
 
     color: #333d4b;
 
-    width: 255px;
+    max-width: 255px;
 
     margin-top: 42px;
     margin-bottom: 64px;
@@ -87,7 +87,7 @@
     font-family: "Barlow";
     color: #333d4b;
 
-    width: 285px;
+    max-width: 285px;
     // height: 130px;
 
     margin-bottom: 64px;
@@ -115,21 +115,41 @@
       margin-top: 405px;
     }
 
+    &__black {
+      &--two {
+        padding: 97px 40px;
+        margin-bottom: 144px;
+        margin-top: 0;
+
+        width: 100%;
+      }
+    }
     margin-left: 39px;
     &__info {
       font-size: 28px;
       line-height: 32px;
+
+      &--two {
+        font-size: 28px;
+        line-height: 32px;
+
+        margin: 24px 0;
+      }
     }
     &__select {
       font-size: 15px;
       line-height: 25px;
+      &--two {
+        font-size: 15px;
+        line-height: 25px;
+      }
     }
     &__element {
       gap: 202px;
       margin-top: 40px;
       margin-bottom: 48px;
 
-      width: 698px;
+      width: 620px;
     }
     &__line {
       left: 10px;
@@ -148,12 +168,8 @@
     &__list {
       width: 223px;
     }
-    &__info {
-      width: 223px;
-    }
-    &__select {
-      width: 223px;
 
+    &__select {
       margin-bottom: 44px;
     }
   }
@@ -176,30 +192,35 @@
     }
     &__item {
       flex-direction: column;
-      width: 327px;
+      // width: 327px;
 
       margin-top: 80px;
+      max-width: 326px;
     }
     &__list {
-      width: 327px;
+      max-width: 327px;
       align-items: center;
+      text-align: center;
     }
     &__number {
-      width: 90px;
+      // width: 90px;
       margin: 0 auto;
     }
     &__info {
-      width: 327px;
-      text-align: center;
+      max-width: 327px;
+      // text-align: center;
       font-size: 28px;
       line-height: 32px;
     }
     &__select {
-      width: 327px;
-      text-align: center;
+      max-width: 327px;
+      // text-align: center;
 
       font-size: 15px;
       line-height: 25px;
+      &--two {
+        margin-bottom: 56px;
+      }
     }
   }
 }

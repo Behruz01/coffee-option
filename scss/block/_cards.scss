@@ -31,7 +31,7 @@
   }
 
   &__inform {
-    width: 730px;
+    max-width: 730px;
 
     display: flex;
     justify-content: space-between;
@@ -66,7 +66,7 @@
   &__systems {
     color: #333d4b;
 
-    width: 172px;
+    // width: 172px;
 
     margin-top: 24px;
   }
@@ -102,5 +102,57 @@
   &__btn {
     margin-top: 40px;
     margin-left: 520px;
+  }
+}
+@media only screen and(max-width:768px) {
+  .cards {
+    padding: 0;
+
+    &__left {
+      display: none;
+    }
+    &__btn {
+      margin-left: 236px;
+      margin-bottom: 144px;
+    }
+    &__capsule {
+      margin-top: 40px;
+      margin-bottom: 100px;
+    }
+  }
+}
+@media only screen and(max-width:376px) {
+  .cards {
+    &__drink {
+      font-size: 24px;
+      line-height: 28px;
+
+      max-width: 240px;
+    }
+    &__inform {
+      max-width: 328px;
+    }
+    &__capsule {
+      flex-direction: column;
+
+      gap: 16px;
+
+      margin-bottom: 110px;
+      margin-top: 32px;
+    }
+    &__filter {
+      padding: 24px 25px;
+
+      max-width: 328px;
+    }
+    &__decaf {
+      padding: 32px 24px;
+
+      max-width: 328px;
+    }
+    &__btn {
+      margin-top: 56px;
+      margin-left: 55px;
+    }
   }
 }
