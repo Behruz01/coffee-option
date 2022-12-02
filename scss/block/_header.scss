@@ -29,13 +29,7 @@
     }
   }
 }
-@media only screen and (max-width: 768px) {
-  .header {
-    &__wrapper {
-      // width: 689px;
-    }
-  }
-}
+
 @media only screen and (max-width: 376px) {
   .header {
     &__img {
